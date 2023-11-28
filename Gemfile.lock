@@ -106,6 +106,11 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    devise-two-factor (5.0.0)
+      activesupport (~> 7.0)
+      devise (~> 4.0)
+      railties (~> 7.0)
+      rotp (~> 6.0)
     drb (2.2.0)
       ruby2_keywords
     erubi (1.12.0)
@@ -204,6 +209,7 @@ GEM
       actionpack (>= 5.2)
       railties (>= 5.2)
     rexml (3.2.6)
+    rotp (6.3.0)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     selenium-webdriver (4.15.0)
@@ -253,6 +259,7 @@ DEPENDENCIES
   capybara
   debug
   devise
+  devise-two-factor
   importmap-rails
   jbuilder
   puma (>= 5.0)
