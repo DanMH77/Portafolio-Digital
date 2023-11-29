@@ -1,0 +1,20 @@
+<h1>about/admin</h1>
+
+<%= form_with model: @adimin do | edit_form | %>
+
+  <%= edit_form.label :name %>
+  <%= edit_form.text_field :name %>
+
+  <br><br>
+
+  <%= edit_form.label :descripcion %>
+  <%= edit_form.text_field :descripcion %>
+
+  <br><br>
+  
+  <%= edit_form.submit %>
+
+<% end %>
+
+<br>
+<%= button_to "Salir del modo admin", destroy_user_session_path, method: :delete%>
