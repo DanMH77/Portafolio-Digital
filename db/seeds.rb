@@ -8,4 +8,5 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-Admin.create(name: 'Daniel Mora')
+Contact.create(name: 'Daniel Mora Hernández' email: 'jeffersonmora968@gmail.com')
+

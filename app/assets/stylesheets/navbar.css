@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    background-color: white;
+    background-image: url(https://usagif.com/wp-content/uploads/2020/11/snwflks-m.gif);
+    border-radius: 20px;
 
 }
 a{
@@ -10,14 +11,14 @@ a{
     color: black;
     font-size: x-large;
 }
-a:hover{
-
-    cursor: pointer;
-    color: red;
-}
 body{
     background-image: url(https://static.vecteezy.com/system/resources/previews/009/362/398/original/blue-dynamic-shape-abstract-background-suitable-for-web-and-mobile-app-backgrounds-eps-10-vector.jpg);
     background-size: 1280px 600px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+a:hover{
+    cursor: pointer;
+    color: blue;
+    font-size: 40px;
 }

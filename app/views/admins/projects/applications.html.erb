@@ -1,2 +1,18 @@
-soy projects admin
+<%= render template: 'layouts/admin_nav'%>
+
+
+<%= form_with model: @adimin do | edit_form | %>
+
+ <%# <%= edit_form.select :contact, @cont% ///dropdown %>
+
+  <%= edit_form.label :descripcion %>
+  <%= edit_form.text_field :descripcion %>
+
+  <br><br>
+  
+  <%= edit_form.submit %>
+
+<% end %>
+
+
 <%= button_to "Salir del modo admin", destroy_user_session_path, method: :delete%>

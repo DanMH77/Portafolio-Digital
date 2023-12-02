@@ -1,1 +1,29 @@
-soy contact publico 
+
+<%= render 'layouts/navbar'%>
+
+<%= form_with model: @cont do | edit_form | %>
+
+  <%= edit_form.label :name %>
+  <%= edit_form.text_field :name %>
+
+  <br><br>
+
+  <%= edit_form.label :email%>
+  <%= edit_form.text_field :email %>
+ 
+  <br><br>
+
+  <%= edit_form.label :descripcion %>
+  <%= edit_form.text_field :descripcion %>
+
+  <br>
+
+
+  <%# <%= edit_form.select :contact, @cont%> 
+
+  <br>
+
+  <%= edit_form.submit %>
+
+<% end %>
+

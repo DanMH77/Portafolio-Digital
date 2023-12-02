@@ -1,5 +1,14 @@
 class ContactController < ApplicationController
-    def contact_us
+
+    def index
         
+        @cont = Contact.all
+
     end
+
+    def info
+        
+        @cont = Contact::cont_list 
+    end
+
 end
