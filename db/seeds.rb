@@ -8,5 +8,6 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-Contact.create(name: 'Daniel Mora Hernández' email: 'jeffersonmora968@gmail.com')
-
+# Contact.create(name: 'Daniel Mora Hernández', email: 'jeffersonmora968@gmail.com', description: 'holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+# Main.create(name: 'Daniel Mora Hernández', description: 'A través de la programación he sido capaz de crear aplicaciones, juegos y proyectos que me permiten expresar mis ideas de una manera única. Es una forma única de expresión donde podemos crear desde cero una página o un sitio que ayude a un sector de la población con un problema o dificultad.')
+Project.create(name: 'Mi Curriculum', description: 'Creación de curriculumvirtual simple con HTML y CSS', responsabilities: 'Creación completa de la pagina', task: 'Completa creación', date: '2023/07/19', technologies: 'HTML, CSS')

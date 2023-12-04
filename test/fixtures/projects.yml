@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  responsabilities: MyString
+  task: MyString
+  date: 2023-12-04
+  technologies: MyString
+
+two:
+  name: MyString
+  description: MyString
+  responsabilities: MyString
+  task: MyString
+  date: 2023-12-04
+  technologies: MyString
